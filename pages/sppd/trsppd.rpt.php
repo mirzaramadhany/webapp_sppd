@@ -54,7 +54,7 @@
 
 		$vaDate 		= scDate::Date2Var($dbRow['date']) ;  
 		$vaTanggal		= array() ; 
-		$vaTanggal[]	= array("x"=>"","1"=>"Dikeluarkan di","2"=>":","3"=>"Pati") ; 
+		$vaTanggal[]	= array("x"=>"","1"=>"Dikeluarkan di","2"=>":","3"=>"Singosari") ; 
 		$vaTanggal[]	= array("x"=>"","1"=>"Pada Tanggal","2"=>":","3"=>$vaDate["Tgl"] . " " . $vaDate['Bulan'] . " " . $vaDate['Tahun']) ; 
 
 		$vaTtd 			= array() ; 

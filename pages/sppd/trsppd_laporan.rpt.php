@@ -35,7 +35,7 @@
 
 		$vaDate			= scDate::Date2Var($dbRow['result_date']) ;
 		$vaTtd 			= array() ; 
-		$vaTtd[]		= array("x"=>"","1"=>"Pati, " . $vaDate["Tgl"] . " " . $vaDate['Bulan'] . " " . $vaDate['Tahun'] ) ; 
+		$vaTtd[]		= array("x"=>"","1"=>"Singosari, " . $vaDate["Tgl"] . " " . $vaDate['Bulan'] . " " . $vaDate['Tahun'] ) ; 
 		$vaTtd[]		= array("x"=>"","1"=>"PETUGAS") ; 
 		$vaTtd[]		= array("x"=>"","1"=>"") ; 
 		$vaTtd[]		= array("x"=>"","1"=>"") ; 
