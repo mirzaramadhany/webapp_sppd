@@ -20,7 +20,7 @@
         </div>
         <button type="button" class="btn btn-primary" id="cmdView" name="cmdView">View Data</button>
     </form>
-</section>
+</section> 
 
 <!-- Main content -->
 <section class="content">
@@ -61,25 +61,17 @@
                     <li class="pull-right"><h4>Klik Untuk Detail</h4></li>
                 </ul> 
                 <div class="tab-content">
-                    <div class="tab-pane active" id="tab_1"> 
-                        <div id="wrapdash_chart" class="full-height"></div>            
+                    <div class="tab-pane active" id="tab_1" style="height:300px">  
                     </div>  
                 </div>
             </div>
         </div> 
         <div class="col-sm-4">
-            <div class="nav-tabs-custom" id="wrap_myTabs2" style="display:none">
-                <ul class="nav nav-tabs" id="myTabs2">
-                    <li class="active"><a href="#otab_1" data-toggle="tab" id="otab__1">Status</a></li>
-                </ul>
-                <div class="tab-content">
-                    <div class="tab-pane active" id="otab_1"> 
-                        <div id="wrapdash_pie"></div> 
-                    </div> 
-                </div>
+            <div class="nav-tabs-custom" id="wrap_myTabs2">
             </div>
         </div>
     </div>
 </section><!-- /.content -->
 
+<script type="text/javascript" src="./sapeltucore/sc_credits/chart/chart/Chart.min.js"></script> 
 <script type="text/javascript" src="<?=$cLocFile?>.js"></script>

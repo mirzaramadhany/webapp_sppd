@@ -7,14 +7,17 @@ OBJFORM_NEW.frmdash.Load	= function(){
 }
 
 OBJFORM_NEW.frmdash.LoadGrid= function(){
+	$("#wrapdash_chart").remove() ; 
+	$("#tab_1").append('<div class="me-loading"></div>') ; 
 	scAjax(OBJFORM_NEW.frmdash.Url_A,'LoadGrid', scGetDataForm($("#cmdView")) ) ; 
 }
 
 OBJFORM_NEW.frmdash.LoadPie = function(bulan_tahun){
 	scAjax(OBJFORM_NEW.frmdash.Url_A,'LoadPie',  
 		scGetDataForm($("#cmdView")) + "&bulan_tahun=" + bulan_tahun  ) ; 	
-	$("#wrapdash_pie").html("") ;   
-}
+	$("#wrap_myTabs2").html("") ;   
+	$("#wrap_myTabs2").append('<div class="me-loading"></div>') ; 
+} 
 
 $(function(){ 
 	scForm.InitDate() ; 
