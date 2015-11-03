@@ -31,3 +31,6 @@
 	<li>Import database github_sppd.sql</li>
 	<li>Setting user passowrd mysql pada /system/sc.ini.php</li>
 </ol>  
+
+<b><i>Screenshot</i></b>
+<img src="./screenshot/dashboard.png">
