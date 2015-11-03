@@ -39,7 +39,7 @@
 		<td style="width:50%"><img src="./screenshot/sppd.png"></td>
 	</tr>
 	<tr>
-		<td style="width:50%"><img src="./screenshot/sppd_1.png"></td>
+		<td style="width:50%"><img src="./screenshot/sppd_i.png"></td>
 		<td style="width:50%"><img src="./screenshot/sppd_p.png"></td>
 	</tr>
 </table>
