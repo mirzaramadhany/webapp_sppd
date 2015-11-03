@@ -1,7 +1,7 @@
 # webapp_sppd
 SURAT PERINTAH PERJALANAN DINAS 
 
-Aplikasi dapat menangani :
+<b><i>Aplikasi dapat menangani :</i><b>
 1. Input SPPD 
 2. Cetak SPPD
 3. Pelaporan SPPD yang dilakukan oleh karyawan
