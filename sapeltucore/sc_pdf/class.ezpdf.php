@@ -198,10 +198,10 @@ function Cezpdf($paper='LETTER',$orientation='portrait',$vaOption=array(),$pagen
     $this->ezPageNumber() ; 
   }
 
-     
+    
 
 }
- 
+
 function ezSetCmMargins($top,$bottom,$left,$right){ 
   $top = ( $top / 2.54 ) * 72;
   $bottom = ( $bottom / 2.54 ) * 72;
@@ -1735,4 +1735,4 @@ function ezSetTextNumber($cText,$nPlusTop=0,$cPos='right',$nFont=8){
   $this->addText($nLeft-$nWidth,$nTop,$nFont,$cText) ;
 }
 }
-?>    
+?>     

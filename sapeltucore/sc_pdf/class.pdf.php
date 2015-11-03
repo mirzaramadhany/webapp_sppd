@@ -1830,7 +1830,7 @@ function addText($x,$y,$size,$text,$angle=0,$wordSpaceAdjust=0){
 
   // if there are any open callbacks, then they should be called, to show the start of the line
   if ($this->nCallback>0){
-    for ($i=$this->nCallback;$i>0;$i--){
+    for ($i=$this->nCallback;$i>0;$i--){  
       // call each function
       $info = array('x'=>$x,'y'=>$y,'angle'=>$angle,'status'=>'sol','p'=>$this->callback[$i]['p'],'nCallback'=>$this->callback[$i]['nCallback'],'height'=>$this->callback[$i]['height'],'decender'=>$this->callback[$i]['decender']);
       $func = $this->callback[$i]['f'];
