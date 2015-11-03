@@ -94,6 +94,14 @@
 	height: 100% ; 
 	position: fixed; 
 } 
+.me-loading{
+	width: 100px ; 
+	height: 75px ; 
+	background: url("./images/gplus.gif") no-repeat ; 
+	background-size: 100px 75px ;
+	position: absolute;
+	margin: 20%  calc( 50% - 50px ) ; 
+}
 
 .sc-DataTable_processing{
 	z-index: 999999 ; 
