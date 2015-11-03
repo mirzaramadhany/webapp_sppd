@@ -1,22 +1,33 @@
 # webapp_sppd
 SURAT PERINTAH PERJALANAN DINAS 
 
-<b><i>Aplikasi dapat menangani :</i><b>
-1. Input SPPD 
-2. Cetak SPPD
-3. Pelaporan SPPD yang dilakukan oleh karyawan
-4. Cetak Hasil Laporan SPPD
-5. Daftar semua SPPD (sedang dikerjakan, selesai , dan belum dilaporkan)
+<b><i>Aplikasi dapat menangani :</i></b>
+<ol>
+	<li>Input SPPD </li>
+	<li>Cetak SPPD </li>
+	<li>Pelaporan SPPD yang dilakukan oleh karyawan </li>
+	<li>Cetak Hasil Laporan SPPD </li>
+	<li>Daftar semua SPPD (sedang dikerjakan, selesai , dan belum dilaporkan)</li>
+</ol>
 
-Aplikasi dapat diinstall pada :
-1. XAMPP v.1.8.3 / lebih
-2. Ubuntu Server 12.04 
-	2.1 PHP 5.5
-	2.2 Mysql 5
-	2.3 Apache
+<b><i>Aplikasi dapat diinstall pada :</i></b>
+<ol>
+	<li>XAMPP v.1.8.3</li>
+	<li>
+		Ubuntu Server 12.04 
+		<ol>
+			<li>PHP 5.5</li>
+			<li>Mysql 5</li>
+			<li>Apache</li>
+		</ol> 
+	</li>
+</ol>
 
-Cara Instalasi :
-1. Copy pada folder /var/www (untuk ubuntu) / htdoc (untuk xampp)
-2. chmod 777 -R pada folder /uploaded , /tmp , /thumbs
-3. Import database github_sppd.sql
-4. Setting user passowrd mysql pada /system/sc.ini.php
+<b><i>Cara Instalasi :</i></b>
+<ol>
+	<li>Copy pada folder /var/www (untuk ubuntu) / htdoc (untuk xampp)</li>
+	<li>chmod 777 -R pada folder /uploaded , /tmp , /thumbs</li>
+	<li>Pelaporan SPPD yang dilakukan oleh karyawan </li>
+	<li>Import database github_sppd.sql</li>
+	<li>Setting user passowrd mysql pada /system/sc.ini.php</li>
+</ol>  
