@@ -159,7 +159,7 @@
 											array("x"	=>array("width"=>50,"wrap"=>1,"justification"=>"center"),
 												  "1"	=>array("width"=>40,"wrap"=>1,"justification"=>"center")) )) ;
 
-		//$pdf->ezStream() ; 
+		$pdf->ezStream() ; 
 
 	}  
 ?> 

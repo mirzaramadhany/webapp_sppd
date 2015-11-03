@@ -1,4 +1,5 @@
 <?php
+	error_reporting(E_ALL ^ E_NOTICE);
 	ini_set("memory_limit",-1); 
 	ob_start() ; 
 	include_once "./sapeltucore/sc_include/sc.func.php" ;
@@ -31,15 +32,8 @@
 		if($cKey == ""){ 
 			include './sapeltucore/sc_pdf/class.ezpdf.php' ; 	 
 			include $cPage ;  
-		}else if($cKey == "html"){ 
-			include '../sapeltucore/sc_pdf/html2pdf.class.php' ; 	
-		}   
+		}
 	}else{
 		echo "Underconstruction" ; 
 	} 
-
-	if($cKey == "html"){
-		ob_clean() ;   	
-		include $cPage ; 
-	}
 ?>
