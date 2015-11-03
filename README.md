@@ -33,4 +33,13 @@
 </ol>  
 
 <b><i>Screenshot</i></b>
-<img src="./screenshot/dashboard.png">
+<table border="0" style="border:0" cellpadding="0" cellspacing="5">
+	<tr>
+		<td style="width:50%"><img src="./screenshot/dashboard.png"></td>
+		<td style="width:50%"><img src="./screenshot/sppd.png"></td>
+	</tr>
+	<tr>
+		<td style="width:50%"><img src="./screenshot/sppd_1.png"></td>
+		<td style="width:50%"><img src="./screenshot/sppd_p.png"></td>
+	</tr>
+</table>
