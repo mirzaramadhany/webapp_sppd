@@ -1,13 +1,14 @@
 # webapp_sppd
 
 <h3>SURAT PERINTAH PERJALANAN DINAS</h3>
-<b><i>Aplikasi dapat menangani :</i></b>
+<b><i>Detil Aplikasi :</i></b>
 <ol>
 	<li>Input SPPD </li>
-	<li>Cetak SPPD </li>
-	<li>Pelaporan SPPD yang dilakukan oleh karyawan </li>
-	<li>Cetak Hasil Laporan SPPD </li>
+	<li>Cetak SPPD (pdf)</li>
+	<li>Pelaporan SPPD yang dilakukan oleh petugas </li>
+	<li>Cetak Hasil Laporan SPPD (pdf)</li>
 	<li>Daftar semua SPPD (sedang dikerjakan, selesai , dan belum dilaporkan)</li>
+	<li>Chart SPPD Perbulan</li>
 </ol>
 
 <b><i>Aplikasi dapat diinstall pada :</i></b>
@@ -26,8 +27,7 @@
 <b><i>Cara Instalasi :</i></b>
 <ol>
 	<li>Copy pada folder /var/www (untuk ubuntu) / htdoc (untuk xampp)</li>
-	<li>chmod 777 -R pada folder /uploaded , /tmp , /thumbs</li>
-	<li>Pelaporan SPPD yang dilakukan oleh karyawan </li>
+	<li>chmod 777 -R pada folder /uploaded , /tmp , /thumbs</li> 
 	<li>Import database github_sppd.sql</li>
 	<li>Setting user passowrd mysql pada /system/sc.ini.php</li>
 </ol>  
