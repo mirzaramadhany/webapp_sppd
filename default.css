@@ -1,0 +1,331 @@
+/*
+	table of contemt
+	1. import
+	2. Reset Bootstrap
+	3. Form Default
+
+*/ 
+.modal.fade {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
+}​
+
+*{ 
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-webkit-box-sizing:border-box;       
+}   
+.float-left{
+	float: left !important; 
+}
+
+.float-right{
+	float: right !important;
+}
+
+.text-right{
+	text-align: right !important;
+} 
+
+.text-left{ 
+	text-align: left !important; 
+}
+
+.text-centered{
+	text-align: center !important; 
+}
+
+.unvisible{visibility: visible !important;}
+.btn.btn-grid{padding: 2px 3px ; font-size: 10px ; width: 100% ; } 
+/*title form*/
+.title h3{
+	display: inline-block;  
+}
+.title .sc-add{
+	margin-top: 1em ; 
+}
+/*end button*/
+.wrap-status{padding: 2px !important; margin: 0px !important; }
+.max-height2{max-height: 2.5em !important;}
+.wrap-status .bg-status{
+  width: 100% !important; 
+  line-height: 2.5em; 
+  max-height: 100% !important; 
+} 
+.bg-default{background-color: #f1c40f !important; color: #FFFFFF !important ;}
+.bg-primary{background-color: #428bca !important; color: #FFFFFF !important ;}
+.bg-success{background-color: #2ecc71 !important; color: #FFFFFF !important ;}
+.bg-danger{background-color: #c0392b !important; color: #FFFFFF !important ;}
+
+/*************** end of form default **********************/
+.wrap-foto .foto{
+	min-height: 10em ; 
+	max-height: 10em ;
+}
+.sc-fileUpload {
+	position: relative;
+	overflow: hidden;
+}
+	.sc-fileUpload input[type='file'] {
+		position: absolute;
+		top: 0;
+		right: 0;
+		margin: 0;
+		padding: 0;
+		font-size: 14px;
+		cursor: pointer;
+		opacity: 0;
+		filter: alpha(opacity=0);
+	}
+.sc-number{text-align: right;}
+.sc-loading-form{
+	z-index: 999999 ; 
+	background: url("./images/loading.gif") no-repeat center center;
+	background-color: #FFFFFF ;  
+	opacity: .5 ;
+	top: 0 ; 
+	left: 0 ; 
+	width: 100% ; 
+	height: 100% ; 
+	position: fixed; 
+} 
+
+.sc-DataTable_processing{
+	z-index: 999999 ; 
+	background: url("./images/loading.gif") no-repeat center center;
+	background-color: #FFFFFF ;  
+	opacity: .5 ;
+	top: 0 ;
+	bottom: 0 ;
+	left: 0 ; 
+	right: 0 ; 
+	position: absolute; 
+}
+
+.sc-datepicker{
+
+}
+
+.a-click{
+	cursor: pointer !important ;
+}
+.text-danger{
+	color: #e74c3c !important ;
+	font-weight: bold; 
+}
+ 	
+.sc-select-search{
+	border-radius: 0px !important ; 	
+}
+
+.form-control{
+	color: #000 ; 
+}
+
+.nav-tabs li.active a{
+	border-radius: 0px !important ; 
+}
+	.nav-tabs li a:hover{border-radius: 0px !important ; }
+
+.sc-DataTable button{
+	padding: 5px !important ; 
+	padding-bottom: 2px !important ;
+	padding-top: 2px !important ; 
+}
+	.sc-DataTable .tab-content{
+		cursor: pointer;
+	}
+	.sc-DataTable .tab-content:hover > .tab-menu{
+		display: block !important; 
+	}
+	.sc-DataTable .tab-content .tab-menu{
+		float: right; 
+		display: none !important; 
+		transition: all 0.2s ease-in-out; 
+	      -moz-transition: all 0.2s ease-in-out;
+	      -webkit-transition: all 0.2s ease-in-out;
+	      -o-transition: all 0.2s ease-in-out; 
+	} 
+.sc-DataTable-new{}	
+	.sc-DataTable-new tbody > tr > td{padding: 3px 5px; }
+
+#sc-DataTable button{
+	padding: 5px !important ; 
+	padding-bottom: 2px !important ;
+	padding-top: 2px !important ; 
+}
+	#sc-DataTable .tab-content{
+		cursor: pointer;
+	}
+	#sc-DataTable .tab-content:hover > .tab-menu{
+		display: block !important; 
+	}
+	#sc-DataTable .tab-content .tab-menu{
+		float: right; 
+		display: none !important; 
+		transition: all 0.2s ease-in-out; 
+	      -moz-transition: all 0.2s ease-in-out;
+	      -webkit-transition: all 0.2s ease-in-out;
+	      -o-transition: all 0.2s ease-in-out; 
+	} 
+
+.slimScrollBar{
+	background-color: #FFF !important; 
+} 
+
+/*pnotif*/
+.ui-pnotify .alert{
+	box-shadow: none !important ; 
+	border-radius: 0px !important; 
+	color: #FFF ; 
+}
+	.ui-pnotify .alert-info{
+		background-color: #00c0ef ;
+		border-color: #00acd6;
+	}
+	.ui-pnotify .alert-danger{
+		background-color: #f56954;
+		border-color: #f4543c;		
+	}
+	.ui-pnotify .alert-warning{
+		background-color: #ff851b ;
+		border-color: #ff851b;		
+	}	
+	.ui-pnotify .alert-success{
+		background-color: #367fa9;
+		border-color: #367fa9;		
+	}	
+	
+	.ui-pnotify .ui-pnotify-icon{padding: 2px ; font-size: 16px;}
+	.ui-pnotify .ui-pnotify-title{font-weight: bold !important;}
+
+/*pdf*/
+
+
+/*signature joos*/
+.m-signature-pad {
+  
+}
+
+.m-signature-pad:before, .m-signature-pad:after {
+	position: absolute;
+  z-index: -1;
+  content: "";
+	width: 40%;
+	height: 10px;
+	left: 20px;
+	bottom: 10px;
+	background: transparent;
+	-webkit-transform: skew(-3deg) rotate(-3deg);
+	-moz-transform: skew(-3deg) rotate(-3deg);
+	-ms-transform: skew(-3deg) rotate(-3deg);
+	-o-transform: skew(-3deg) rotate(-3deg);
+	transform: skew(-3deg) rotate(-3deg);
+	box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
+}
+
+.m-signature-pad:after {
+	left: auto;
+	right: 20px;
+	-webkit-transform: skew(3deg) rotate(3deg);
+	-moz-transform: skew(3deg) rotate(3deg);
+	-ms-transform: skew(3deg) rotate(3deg);
+	-o-transform: skew(3deg) rotate(3deg);
+	transform: skew(3deg) rotate(3deg);
+}
+
+.m-signature-pad--body {
+  
+  left: 20px;
+  right: 20px;
+  top: 20px;
+  bottom: 60px;
+  border: 1px solid #f4f4f4;
+}
+
+.m-signature-pad--body
+  canvas {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 400px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.02) inset;
+  }
+
+.m-signature-pad--footer {
+  position: absolute;
+  left: 2em;
+  right: 20px;
+  bottom: 20px;
+  height: 40px;
+}
+
+.m-signature-pad--footer
+  .description {
+    color: #C3C3C3;
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 1.8em;
+  }
+
+.m-signature-pad--footer
+  .button {
+    position: absolute;
+    bottom: 0;
+  }
+
+.m-signature-pad--footer
+  .button.clear {
+    left: 0;
+  }
+
+.m-signature-pad--footer
+  .button.save {
+    right: 0;
+  }
+
+@media screen and (max-width: 1024px) {
+  .m-signature-pad {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    min-width: 250px;
+    min-height: 140px;
+    margin: 5%;
+  }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .m-signature-pad {
+    margin: 10%;
+  }
+}
+
+@media screen and (max-height: 320px) {
+  .m-signature-pad--body {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 32px;
+  }
+  .m-signature-pad--footer {
+    left: 20px;
+    right: 20px;
+    bottom: 4px;
+    height: 28px;
+  }
+  .m-signature-pad--footer
+    .description {
+      font-size: 1em;
+      margin-top: 1em;
+    }
+} 

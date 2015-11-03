@@ -1,0 +1,95 @@
+<?php$scDb->Sql("DROP TABLE IF EXISTS `pegawai`") ;$scDb->Sql("CREATE TABLE `pegawai` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nip` varchar(100) NOT NULL,
+  `nama` varchar(100) NOT NULL,
+  `no_hp` varchar(100) NOT NULL,
+  `alamat` varchar(100) NOT NULL,
+  `tanggal_lahir` date NOT NULL,
+  `tempat_lahir` varchar(100) NOT NULL,
+  `golongan` varchar(100) NOT NULL,
+  `golongan_tanggal` date NOT NULL DEFAULT '0000-00-00',
+  `jabatan` varchar(100) NOT NULL,
+  `jabatan_tanggal` date NOT NULL DEFAULT '0000-00-00',
+  `kerja_tahun` int(4) NOT NULL,
+  `kerja_bulan` int(4) NOT NULL,
+  `latihan_jabatan` varchar(100) DEFAULT NULL,
+  `latihan_jabatan_tanggal` date DEFAULT '0000-00-00',
+  `latihan_jabatan_jam` int(4) DEFAULT '0',
+  `pendidikan` varchar(100) NOT NULL,
+  `pendidikan_lulus` varchar(4) NOT NULL,
+  `pendidikan_ijazah` varchar(100) NOT NULL,
+  `catatan_mutasi` text,
+  `keterangan` text,
+  `username` varchar(100) DEFAULT NULL,
+  `username_update` varchar(100) DEFAULT NULL,
+  `datetime_insert` timestamp NULL DEFAULT '0000-00-00 00:00:00',
+  `datetime_update` timestamp NULL DEFAULT '0000-00-00 00:00:00' ON UPDATE CURRENT_TIMESTAMP,
+  `status_deleted` enum('0','1') DEFAULT '1',
+  PRIMARY KEY (`id`),
+  KEY `nip` (`nip`)
+) ENGINE=InnoDB AUTO_INCREMENT=80 DEFAULT CHARSET=latin1") ; $scDb->Sql("DROP TABLE IF EXISTS `sc_kode`") ;$scDb->Sql("CREATE TABLE `sc_kode` (
+  `Kode` varchar(20) NOT NULL DEFAULT '',
+  `Data` bigint(11) DEFAULT NULL,
+  PRIMARY KEY (`Kode`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1") ; $scDb->Sql("DROP TABLE IF EXISTS `sc_master`") ;$scDb->Sql("CREATE TABLE `sc_master` (
+  `Id` bigint(11) NOT NULL AUTO_INCREMENT,
+  `Title` varchar(100) DEFAULT NULL,
+  `Description` varchar(255) DEFAULT NULL,
+  `Stat` varchar(100) DEFAULT NULL,
+  `OtherString` longtext,
+  PRIMARY KEY (`Id`)
+) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=latin1") ; $scDb->Sql("DROP TABLE IF EXISTS `sppd`") ;$scDb->Sql("CREATE TABLE `sppd` (
+  `id` bigint(11) NOT NULL AUTO_INCREMENT,
+  `letter_code` varchar(100) NOT NULL,
+  `letter_subject` varchar(100) NOT NULL,
+  `letter_about` varchar(100) NOT NULL,
+  `letter_from` varchar(100) NOT NULL,
+  `letter_content` text NOT NULL,
+  `letter_date` date NOT NULL DEFAULT '0000-00-00',
+  `code` varchar(30) NOT NULL,
+  `date` date NOT NULL DEFAULT '0000-00-00',
+  `nip_pejabat` varchar(100) NOT NULL,
+  `nip_leader` varchar(100) NOT NULL,
+  `rate_travel` varchar(100) NOT NULL,
+  `nip` text NOT NULL,
+  `purpose` text NOT NULL,
+  `transport` varchar(255) NOT NULL,
+  `place_from` varchar(100) NOT NULL,
+  `place_to` varchar(100) NOT NULL,
+  `length_journey` int(3) NOT NULL,
+  `date_go` date NOT NULL DEFAULT '0000-00-00',
+  `date_back` date NOT NULL DEFAULT '0000-00-00',
+  `government` varchar(255) NOT NULL,
+  `budget` double(16,2) NOT NULL DEFAULT '0.00',
+  `budget_from` varchar(100) NOT NULL,
+  `description` text NOT NULL,
+  `result_date` date NOT NULL,
+  `result` text NOT NULL,
+  `result_username` varchar(100) NOT NULL,
+  `result_username_update` varchar(100) NOT NULL,
+  `file` longtext NOT NULL,
+  `file_update` longtext NOT NULL,
+  `status` enum('0','1','2') NOT NULL DEFAULT '0' COMMENT '0 : diinput  1 : dicetak 2 : selesai',
+  `username` varchar(100) NOT NULL,
+  `username_update` varchar(100) NOT NULL,
+  `datetime_insert` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `datetime_update` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00' ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`),
+  KEY `code` (`code`),
+  KEY `nip_leader` (`nip_leader`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1") ; $scDb->Sql("DROP TABLE IF EXISTS `username`") ;$scDb->Sql("CREATE TABLE `username` (
+  `UserName` varchar(100) NOT NULL,
+  `Password` varchar(100) NOT NULL,
+  `FullName` varchar(100) NOT NULL,
+  `Stat` varchar(20) NOT NULL COMMENT 'editor,administrator,approval',
+  `LastLogin` datetime NOT NULL,
+  `UserName_Target` varchar(100) NOT NULL,
+  `Foto` varchar(100) NOT NULL,
+  `Email` varchar(100) NOT NULL,
+  PRIMARY KEY (`UserName`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1") ; $scDb->Sql("DROP TABLE IF EXISTS `username_level`") ;$scDb->Sql("CREATE TABLE `username_level` (
+  `Kode` char(4) NOT NULL DEFAULT '',
+  `Keterangan` varchar(30) DEFAULT NULL,
+  `Isi` longtext,
+  PRIMARY KEY (`Kode`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1") ; ?>
