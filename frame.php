@@ -394,12 +394,12 @@
                     }) ;
 
                     CheckFrame();
-                    CheckNotification() ; 
+                    //CheckNotification() ; 
                 }) ;
 
                 var nReload         = 55  ;  
                 var objFrame        = null ;
-                var objDashboard    = null ; 
+                var objDashboard    = null ;  
                 var OBJDASH_NEW     = {} ; 
                 var OBJFORM_NEW     = {} ; 
                 function CheckFrame(){ 
@@ -407,7 +407,7 @@
  
                     objFrame    = setTimeout(function(){ 
                         CheckFrame() ;  
-                    },120000) ;    
+                    },300000) ;    
                 } 
 
                 function CheckNotification(){
