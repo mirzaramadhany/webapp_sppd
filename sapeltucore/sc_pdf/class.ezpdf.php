@@ -1636,8 +1636,6 @@ function ezTable(&$data,$cols='',$title='',$options=''){
   return $y;
 }
 
-
-// Function Sapeltu didasari dari fungsi Assist thanks assist
 function ezHeader($cText,$vaOption = ''){
   if($this->nExportCSV == 1){
     $va1 [0] = array(""=>$cText) ;
