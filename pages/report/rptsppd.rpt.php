@@ -98,10 +98,10 @@
 
 		$pdf->ezImage( scSys::GetConfig("sc_header") ,false , 100 , 600) ; 
 		$pdf->ezTable($vaTable1,"","",array("showLines"=>0,"showHeadings"=>0,"fontSize"=>$nFont, "cols"=> 
-											array("x"	=>array("width"=>60,"wrap"=>1),
+											array("x"	=>array("width"=>50,"wrap"=>1),
 												  "1"	=>array("width"=>20,"wrap"=>1),
 												  "2"	=>array("width"=>2),
-												  "3"	=>array("width"=>18,"wrap"=>1) ) )) ;
+												  "3"	=>array("width"=>28,"wrap"=>1) ) )) ; 
 		$pdf->ezText("") ; 
 		$pdf->ezText("<u><b>PERINTAH PERJALANAN DINAS</b></u>",$nFont+2,array("justification"=>"center")) ;
 		$pdf->ezText("(SPPD)",$nFont+2,array("justification"=>"center")) ;
