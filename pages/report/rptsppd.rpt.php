@@ -2,7 +2,7 @@
 	$code 	= $_GET['code']	 ;
 	$dbRow 	= scSys::GetKeterangan("*","code = '$code'","sppd") ; 
 	if(!empty($dbRow)){
-		$scDb->Edit("sppd",array("status"=>"1"),"code = '$code'",false) ;
+		$scDb->Edit("sppd",array("status"=>"1"),"code = '$code' AND status = '0'",false) ;
 
 		$vaTable1		= array() ; 
 		$vaTable1[] 	= array("x"=>"","1"=>"Lembar Ke","2"=>":","3"=>"") ;
