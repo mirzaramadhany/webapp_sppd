@@ -36,7 +36,7 @@
 			<li>pass : appbismillah</li>
 		</ul>
 	</li>
-</ol>  
+</ol>
 
 <b><i>Screenshot</i></b>
 <table border="0" style="border:0" cellpadding="0" cellspacing="5">
