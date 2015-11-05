@@ -30,7 +30,7 @@
 	<li>chmod 777 -R pada folder /uploaded , /tmp , /thumbs</li> 
 	<li>Import database github_sppd.sql</li>
 	<li>Setting user passowrd mysql pada /system/sc.ini.php</li>
-	<li>User : 
+	<li>User login aplikasi: (administrator)
 		<ul>
 			<li>user : admin</li>
 			<li>pass : appbismillah</li>

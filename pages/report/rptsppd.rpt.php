@@ -1,4 +1,4 @@
-<?php 
+<?php  
 	$code 	= $_GET['code']	 ;
 	$dbRow 	= scSys::GetKeterangan("*","code = '$code'","sppd") ; 
 	if(!empty($dbRow)){
