@@ -46,6 +46,5 @@
 	</tr>
 	<tr>
 		<td style="width:50%"><img src="./screenshot/sppd_i.png"></td>
-		<td style="width:50%"><img src="./screenshot/sppd_p.png"></td>
 	</tr>
 </table>
