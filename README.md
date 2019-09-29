@@ -1,6 +1,6 @@
 # webapp_sppd
 <h3>SURAT PERINTAH PERJALANAN DINAS</h3>
-<h2>MOHON MAAF SUDAH TIDAK DIKEMBANGKAN, JIKA MENGINGINKAN MOHON MENGHUBUNGI <a href="https://wa.me/6281945908363" target="_blank">0819 4590 8363</a></h2>
+<h4>MOHON MAAF SUDAH TIDAK DIKEMBANGKAN, JIKA MENGINGINKAN MOHON MENGHUBUNGI <a href="https://wa.me/6281945908363" target="_blank">0819 4590 8363</a></h4>
 <b><i>Detil Aplikasi :</i></b>
 <ol>
 	<li>Input SPPD </li>
